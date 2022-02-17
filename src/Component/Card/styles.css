@@ -1,0 +1,35 @@
+.container-card {
+    width: 180px;
+    height: 275px;
+    padding: 18px;
+
+    border-radius: 8px;
+    
+    -webkit-box-shadow: 0 2px 9px 0 rgb(158 184 209 / 41%);
+    box-shadow: 0 2px 9px 0 rgb(158 184 209 / 41%);
+
+    -webkit-box-shadow: 0 8px 20px 0 rgb(158 184 209 / 43%);
+    box-shadow: 0 8px 20px 0 rgb(158 184 209 / 43%);
+    
+    margin: 20px;
+
+    cursor: pointer;
+}
+
+.div-image-card {
+    width: 100%;
+    height: 100px;
+}
+
+.image-card {
+    width: 100%;
+    height: 100%;
+}
+
+.div-infos-card {
+    margin-top: 10px;
+}
+
+.div-info-card {
+    margin-top: 10px;
+}

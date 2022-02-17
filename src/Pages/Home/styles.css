@@ -1,0 +1,22 @@
+.container-home {
+    width: 100%;
+    height: 100%;
+}
+
+.section-cards-home {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-cards-home {
+    width: 800px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
