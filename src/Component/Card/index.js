@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
+import { Context } from '../../context/AuthContext';
 
 import './styles.css';
 
 export default function Card({ data }) {
-    const { image, name, status, gender, species} = data;
+    const { handleSelectCharacterDetail } = useContext(Context);
+    const { image, name, status, gender, species } = data;
 
     return(
-        <div className='container-card'>
+        <div className='container-card' onClick={() => handleSelectCharacterDetail(data)}>
             <div className='div-image-card'>
                 <img className="image-card" src={image}/>
             </div>

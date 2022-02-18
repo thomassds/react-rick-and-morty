@@ -10,12 +10,14 @@ function AuthProvider({children})  {
         character, setCharacter,
         characters, setCharacters,
         pagination, setPagination,
-        handleGetCharacters 
+        handleGetCharacters, handleSelectCharacterDetail,
+        handleGetCharacterId, handleSearchCharactersName
     } = useCharaters();
 
     return (    
         <Context.Provider value={{
-            character, setCharacter, characters, setCharacters, pagination, setPagination, handleGetCharacters
+            character, setCharacter, characters, setCharacters, pagination, setPagination, 
+            handleGetCharacters, handleSelectCharacterDetail, handleGetCharacterId, handleSearchCharactersName
         }}>
             {children}
         </Context.Provider>
