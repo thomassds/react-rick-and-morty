@@ -19,7 +19,7 @@ export default function Home() {
     useEffect(() => {
         handleSearchCharactersName(search);
     
-    }, [search])
+    },[search])
     return(
         <div className='container-home'>
             <Header/>
